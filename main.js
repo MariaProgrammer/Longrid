@@ -4,10 +4,6 @@ const nextButton1 = document.querySelector('.next-button1');
 const slides1 = Array.from(slider1.querySelectorAll('img'));
 const slideCount1 = slides1.length;
 let slideIndex = 0;
-console.log(slider1);
-console.log(nextButton1);
-console.log(slides1);
-console.log(slideCount1);
 
 // Устанавливаем обработчики событий для кнопок
 nextButton1.addEventListener('click', showNextSlide1);
@@ -40,11 +36,6 @@ const nextButton2 = document.querySelector('.next-button2');
 const slides2 = Array.from(slider2.querySelectorAll('img'));
 const slideCount2 = slides2.length;
 
-console.log(slider2);
-console.log(nextButton2);
-console.log(slides2);
-console.log(slideCount2);
-
 // Устанавливаем обработчики событий для кнопок
 nextButton2.addEventListener('click', showNextSlide2);
 
@@ -72,11 +63,6 @@ const slider3 = document.querySelector('.slider3');
 const nextButton3 = document.querySelector('.next-button3');
 const slides3 = Array.from(slider3.querySelectorAll('img'));
 const slideCount3 = slides3.length;
-
-console.log(slider3);
-console.log(nextButton3);
-console.log(slides3);
-console.log(slideCount3);
 
 // Устанавливаем обработчики событий для кнопок
 nextButton3.addEventListener('click', showNextSlide3);
@@ -107,11 +93,6 @@ const nextButton4 = document.querySelector('.next-button4');
 const slides4 = Array.from(slider4.querySelectorAll('img'));
 const slideCount4 = slides4.length;
 
-console.log(slider4);
-console.log(nextButton4);
-console.log(slides4);
-console.log(slideCount4);
-
 // Устанавливаем обработчики событий для кнопок
 nextButton4.addEventListener('click', showNextSlide4);
 
@@ -141,10 +122,6 @@ const nextButton5 = document.querySelector('.next-button5');
 const slides5 = Array.from(slider5.querySelectorAll('img'));
 const slideCount5 = slides5.length;
 
-console.log(slider5);
-console.log(nextButton5);
-console.log(slides5);
-console.log(slideCount5);
 
 // Устанавливаем обработчики событий для кнопок
 nextButton5.addEventListener('click', showNextSlide5);
