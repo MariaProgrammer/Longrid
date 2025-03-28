@@ -1,66 +1,171 @@
+const slider1 = document.querySelector('.slider1');
 
-for (let i=0; i<5; i++) {
-  const slider = Array.from(document.querySelectorAll('.slider'));
-const nextButton = Array.from(document.querySelectorAll('.next-button'));
-// const slides = Array.from(slider.querySelectorAll('img'));
-// const slideCount = slides.length;
-nextButton.forEach(button => {
-  button.addEventListener('click', showNextSlide)
-});
+const nextButton1 = document.querySelector('.next-button1');
+const slides1 = Array.from(slider1.querySelectorAll('img'));
+const slideCount1 = slides1.length;
 let slideIndex = 0;
-  let slides = Array.from(slider[i].querySelectorAll('img'))
-  let slideslength = Array.from(slider[i].querySelectorAll('img')).length
-  console.log(slides);
-  console.log(slideslength);
-  function showNextSlide() {
-
-    slideIndex = (slideIndex + 1) % slideslength;
-    updateSlider();
-  }
-  function updateSlider() {
-    slides.forEach((slide, index) => {
-      if (index === slideIndex) {
-        slide.style.display = 'block';
-      } else {
-        slide.style.display = 'none';
-      }
-    });
-  }
-  updateSlider();
-
-   }
-
-// const slider1 = slider[0]
-// const slides1 = Array.from(slider1.querySelectorAll('img'))
-// const slideCount1 = slides1.length
-
-
-
-
+console.log(slider1);
+console.log(nextButton1);
+console.log(slides1);
+console.log(slideCount1);
 
 // Устанавливаем обработчики событий для кнопок
-
-
+nextButton1.addEventListener('click', showNextSlide1);
 
 
 // Функция для показа следующего слайда
-// function showNextSlide() {
-
-//   slideIndex = (slideIndex + 1) % slideCount1;
-//   updateSlider();
-// }
-
+function showNextSlide1() {
+  slideIndex = (slideIndex + 1) % slideCount1;
+  updateSlider1();
+}
 
 // Функция для обновления отображения слайдера
-// function updateSlider() {
-//   slides1.forEach((slide, index) => {
-//     if (index === slideIndex) {
-//       slide.style.display = 'block';
-//     } else {
-//       slide.style.display = 'none';
-//     }
-//   });
-// }
+function updateSlider1() {
+  slides1.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
+}
 
 // Инициализация слайдера
-// updateSlider();
+updateSlider1() 
+
+
+const slider2 = document.querySelector('.slider2');
+
+const nextButton2 = document.querySelector('.next-button2');
+const slides2 = Array.from(slider2.querySelectorAll('img'));
+const slideCount2 = slides2.length;
+
+console.log(slider2);
+console.log(nextButton2);
+console.log(slides2);
+console.log(slideCount2);
+
+// Устанавливаем обработчики событий для кнопок
+nextButton2.addEventListener('click', showNextSlide2);
+
+
+// Функция для показа следующего слайда
+function showNextSlide2() {
+  slideIndex = (slideIndex + 1) % slideCount2;
+  updateSlider2();
+}
+
+// Функция для обновления отображения слайдера
+function updateSlider2() {
+  slides2.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
+}
+updateSlider2()
+
+const slider3 = document.querySelector('.slider3');
+
+const nextButton3 = document.querySelector('.next-button3');
+const slides3 = Array.from(slider3.querySelectorAll('img'));
+const slideCount3 = slides3.length;
+
+console.log(slider3);
+console.log(nextButton3);
+console.log(slides3);
+console.log(slideCount3);
+
+// Устанавливаем обработчики событий для кнопок
+nextButton3.addEventListener('click', showNextSlide3);
+
+
+// Функция для показа следующего слайда
+function showNextSlide3() {
+  slideIndex = (slideIndex + 1) % slideCount3;
+  updateSlider3();
+}
+
+// Функция для обновления отображения слайдера
+function updateSlider3() {
+  slides3.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
+}
+updateSlider3()
+
+
+const slider4 = document.querySelector('.slider4');
+
+const nextButton4 = document.querySelector('.next-button4');
+const slides4 = Array.from(slider4.querySelectorAll('img'));
+const slideCount4 = slides4.length;
+
+console.log(slider4);
+console.log(nextButton4);
+console.log(slides4);
+console.log(slideCount4);
+
+// Устанавливаем обработчики событий для кнопок
+nextButton4.addEventListener('click', showNextSlide4);
+
+
+// Функция для показа следующего слайда
+function showNextSlide4() {
+  slideIndex = (slideIndex + 1) % slideCount4;
+  updateSlider4();
+}
+
+// Функция для обновления отображения слайдера
+function updateSlider4() {
+  slides4.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
+}
+updateSlider4()
+
+
+const slider5 = document.querySelector('.slider5');
+
+const nextButton5 = document.querySelector('.next-button5');
+const slides5 = Array.from(slider5.querySelectorAll('img'));
+const slideCount5 = slides5.length;
+
+console.log(slider5);
+console.log(nextButton5);
+console.log(slides5);
+console.log(slideCount5);
+
+// Устанавливаем обработчики событий для кнопок
+nextButton5.addEventListener('click', showNextSlide5);
+
+
+// Функция для показа следующего слайда
+function showNextSlide5() {
+  slideIndex = (slideIndex + 1) % slideCount5;
+  updateSlider5();
+}
+
+// Функция для обновления отображения слайдера
+function updateSlider5() {
+  slides5.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
+}
+
+// Инициализация слайдера
+updateSlider5();
